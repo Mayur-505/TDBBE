@@ -1,0 +1,37 @@
+export const ResponseCodes = {
+    inputError: 512,
+    saveError: 527,
+    general: 511,
+    userError: 534,
+    loginError: 520,
+    searchError: 525,
+    insertError: 526,
+    emailError: 532,
+    success: 200,
+    serverError: 500,
+    TokenError: 552,
+};
+
+// export const ResponseCodes = {
+//   "100": "Continue",
+//   "101": "Switching Protocols",
+//   "200": "OK",
+//   "201": "Created",
+//   "202": "Accepted",
+//   "204": "No Content",
+//   "301": "Moved Permanently",
+//   "302": "Found (Moved Temporarily)",
+//   "304": "Not Modified",
+//   "400": "Bad Request",
+//   "401": "Unauthorized",
+//   "403": "Forbidden",
+//   "404": "Not Found",
+//   "405": "Method Not Allowed",
+//   "409": "Conflict",
+//   "429": "Too Many Requests",
+//   "500": "Internal Server Error",
+//   "501": "Not Implemented",
+//   "502": "Bad Gateway",
+//   "503": "Service Unavailable",
+//   "504": "Gateway Timeout"
+// };
